@@ -11,106 +11,117 @@ menuItem.addEventListener('click', () => {
   menuItem.classList.toggle('active');
 });
 
-
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+const countDownDate = new Date('Jan 5, 2024 15:37:25').getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function() {
-
+const x = setInterval(() => {
   // Get today's date and time
-  var now = new Date().getTime();
+  const now = new Date().getTime();
 
   // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+  const distance = countDownDate - now;
 
   // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  // Display the result in the element with id='demo'
+  document.getElementById('timer').innerHTML = `${days}d ${hours}h ${
+    minutes}m ${seconds}s `;
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById('demo').innerHTML = 'EXPIRED';
   }
 }, 1000);
 
+const speakers = [
+  {
+    id: 'speaker1',
+    img: {
+      src: './images/Capture.PNG', alt: 'Picture of a professor',
+    },
+    name: 'Yochai Benkler',
+    title: 'Berkman Professor of Entreprenuerial Legal Studies at Havard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
+  },
+  {
+    id: 'speaker1',
+    img: {
+      src: './images/1cap.PNG', alt: 'Picture of a professor',
+    },
+    name: 'SohYeong Noh',
+    title: 'Berkman Professor of Entreprenuerial Legal Studies at Havard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
+  },
+  {
+    id: 'speaker1',
+    img: {
+      src: './images/2c.PNG', alt: 'Picture of a professor',
+    },
+    name: 'Lila Treklty',
+    title: 'Berkman Professor of Entreprenuerial Legal Studies at Havard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
+  },
+  {
+    id: 'speaker1',
+    img: {
+      src: './images/3c.PNG', alt: 'Picture of a professor',
+    },
+    name: 'Kilnam Chon',
+    title: 'Berkman Professor of Entreprenuerial Legal Studies at Havard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
+  },
+  {
+    id: 'speaker1',
+    img: {
+      src: './images/4c.PNG', alt: 'Picture of a professor',
+    },
+    name: 'Julia Leda',
+    title: 'Berkman Professor of Entreprenuerial Legal Studies at Havard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
+  },
+  {
+    id: 'speaker1',
+    img: {
+      src: './images/5c.PNG', alt: 'Picture of a professor',
+    },
+    name: 'Ryan Merkley',
+    title: 'Berkman Professor of Entreprenuerial Legal Studies at Havard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
+  },
+];
 
+function speakerCard(speakerObj) {
+  const {
+    id,
+    img,
+    name,
+    title,
+    description,
+  } = speakerObj;
 
-
-
-function creation(m = 'div') {
-  if(!m) {
-    m= 'div';
-  }
-  return document.createElement(m);
+  const speakerDomNode = `
+ <div id="${id}" class="speaker">
+ <div class="imge">
+   <img id="imge" src="${img.src}" alt="${img.alt}">
+ </div>
+ <div class="txt">
+  <h4 class="names">${name}</h4>
+  <p class="title">${title}</p>
+  <span class="bard"></span>
+  <p class="des">${description}</p>
+ </div>
+</div>
+`;
+  return speakerDomNode;
 }
 
-const projectData = [
-  {
-    id: 'project1',
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Enterprenuerial Legal Studies at Havard Law',
-    primaryText: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageUrl: './images/portfolio-1.png',
-  },
-  {
-    id: 'project2',
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Enterprenuerial Legal Studies at Havard Law',
-    primaryText: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageUrl: './images/portfolio-1.png',
-  },
-  {
-    id: 'project3',
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Enterprenuerial Legal Studies at Havard Law',
-    primaryText: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageUrl: './images/portfolio-1.png',
-  },
-  {
-    id: 'project4',
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Enterprenuerial Legal Studies at Havard Law',
-    primaryText: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageUrl: './images/portfolio-1.png',
-  },
-  {
-    id: 'project5',
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Enterprenuerial Legal Studies at Havard Law',
-    primaryText: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageUrl: './images/portfolio-1.png',
-  },
-  {
-    id: 'project6',
-    name: 'Yochai Benkler',
-    title: 'Berkman Professor of Enterprenuerial Legal Studies at Havard Law',
-    primaryText: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    imageUrl: './images/portfolio-1.png',
-  },
-]; // End of portfolio data
-
-
-function fetchProject(id) {
-  const projects = projectData;
-
-  let project;
-  for(let i = 0; i <projectData.length; i++) {
-    if(projects[i].id === id) {
-      project = projects[i];
-    }
-  }
-  if(project) {
-    const
-  }
-
-
-
-
-}
+// const speakerSection = document.getElementById('speakers');
+const speakerSection = document.querySelector('.down');
+speakers.forEach((speaker) => {
+  speakerSection.insertAdjacentHTML('beforebegin', speakerCard(speaker));
+});
