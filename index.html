@@ -33,16 +33,13 @@
         </ul>
       </div>
       <nav class="nav container" id="nav">
-      <!--<div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">
-        <i class="ri-menu-3-line menu-open-icon" id="openmenu"></i>
-        <i class="ri-close-fill menu-close-icon" id="closemenu"></i>
-      </div>-->
+
       <div class="menu-toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
        </div>
-      <a href="#" class="logo">The BIG5</a>
+       <a href="#" id="logo">The BIG5 <br>Conservation</a>
       <div class="nav-mobile">
         <ul class="list">
           <li class="list-item">
@@ -51,18 +48,9 @@
           <li class="list-item">
             <a href="about.html" class="list-link current">About</a>
           </li>
-          <li class="list-item">
-            <a href="#" class="list-link current">Sponsor</a>
-          </li>
-          <li class="list-item lg-screen-hidden">
-            <a href="#" class="list-link current">News</a>
-          </li>
-          <li class="list-item lg-screen-hidden">
-            <button class="upbtn">Join us</button>
-          </li>
         </ul>
       </div>
-      <a href="#" class="btn sm-screen-hidden">Donate</a>
+      <a href="index.html" class="btn sm-screen-hidden">Donate</a>
       </nav>
       </header>
       <section class="main-section">
@@ -142,8 +130,11 @@
       <h2 id="fea">Featured speakers</h2>
       <span class="barh"></span>
     </div>
+    <div class="speaker-container">
+      <!--this section loads dynamically-->
+    </div>
+    <button onclick="loadData()" id="MORE">MORE<i class="ri-arrow-down-s-line"></i></button>
     <div class="down">
-      MORE<i class="ri-arrow-down-s-line"></i>
     </div>
   </section>
   <section class="end">
@@ -161,6 +152,7 @@
     <a href="#" class="logo">BIG5</a>
     <p>2022 Animal conservation some rights reserved.</p>
   </footer>
+  <script src="js/jquerry-latest.min.js"></script>
   <script src="main.js"></script> 
 </body>
 </html>

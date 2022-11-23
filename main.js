@@ -94,7 +94,6 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
 ];
-
 function speakerCard(speakerObj) {
   const {
     id,
@@ -103,7 +102,6 @@ function speakerCard(speakerObj) {
     title,
     description,
   } = speakerObj;
-
   const speakerDomNode = `
  <div id="${id}" class="speaker">
  <div class="imge">
@@ -119,9 +117,7 @@ function speakerCard(speakerObj) {
 `;
   return speakerDomNode;
 }
-
-// const speakerSection = document.getElementById('speakers');
-const speakerSection = document.querySelector('.down');
+const speakerSection = document.querySelector('.speaker-container');
 speakers.forEach((speaker) => {
-  speakerSection.insertAdjacentHTML('beforebegin', speakerCard(speaker));
+  speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
 });
