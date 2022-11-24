@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://https://github.com/uchexm/Big-5-Summit/">
+  <a href="https://uchexm.github.io/Big-5-Summit/">
     
   </a>
 
