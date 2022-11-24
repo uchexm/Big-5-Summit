@@ -220,10 +220,11 @@ Use this space to list resources you find helpful and would like to give credit 
 [forks-url]: https://img.shields.io/github/uchexm/forksbadge
 [stars-shield]: https://img.shields.io/github/stars/uchexm/badge
 [stars-url]: https://img.shields.io/github/uchexm/badge
-[issues-shield]: https://img.shields.io/github/uchexm/issues/badge
+[issues-shield]: https://img.shields.io/github/issues/uchexm/badge
 [issues-url]: https://github.com/uchexm/Big-5-Summit/issues
 [license-shield]: https://img.shields.io/github/license/uchexm/badge
 [license-url]: https://github.com/uchexm
+[linkedin-shield]: https://img.shields.io/github/linkedin/uchexm/badge
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
 [product-screenshot]: images/readme.PNG
 [HTML]: https://img.shields.io/badge/css-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
