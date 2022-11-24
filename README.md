@@ -92,7 +92,8 @@ This project is built using these technologies and frameworks.
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+ 
+ View the live demo here.
  - [🚀 Live Demo](https://uchexm.github.io/Big-5-Summit/)
 
 <!-- GETTING STARTED -->
@@ -198,7 +199,7 @@ Project Link: [https://github.com/uchexm/Big-5-Summit/](https://https://github.c
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+I want to give speacial thsnks to.
 
 * [CREATIVE COMMONS LICENCE](https://creativecommons.org/licenses/by-nc/4.0/)
 * [Cindy Shin](https://www.behance.net/adagio07)
@@ -226,4 +227,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-shield]: https://img.shields.io/github/license/uchexm/badge
 [license-url]: https://github.com/uchexm
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
-[product-screenshot]: images/readme.PNG
+[product-screenshot]: images/LO.PNG
