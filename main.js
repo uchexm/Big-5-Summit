@@ -28,8 +28,8 @@ const x = setInterval(() => {
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id='demo'
-  document.getElementById('timer').innerHTML = `${days}d ${hours}h ${
-    minutes}m ${seconds}s `;
+  document.getElementById('timer').innerHTML = `${days}d (${hours}h) (${
+    minutes}m) ${seconds}s `;
 
   // If the count down is finished, write some text
   if (distance < 0) {
@@ -121,29 +121,3 @@ const speakerSection = document.querySelector('.speaker-container');
 speakers.forEach((speaker) => {
   speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
 });
-
-/* const moreBtn = document.querySelector('.morebtn');
-const speakerSection = document.querySelector('.speaker-container');
-
-let start = 0;
-let end = 2;
-
-window.onload = () => {
-  const arr = speakers.slice(start, end);
-  arr.forEach((speaker) => {
-    speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
-  });
-};
-
-moreBtn.addEventListener('click', () => {
-  start = end;
-  end += 2;
-  const arr = speakers.slice(start, end);
-  if (arr.length <= 0) {
-    moreBtn.setAttribute('disabled', true);
-    return;
-  }
-  arr.forEach((speaker) => {
-    speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
-  });
-}); */

@@ -93,7 +93,7 @@ This project is built using these technologies and frameworks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+ - [🚀 Live Demo](https://uchexm.github.io/Big-5-Summit/)
 
 <!-- GETTING STARTED -->
 ## Getting Started

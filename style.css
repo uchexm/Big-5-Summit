@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900;1200&family=Poppins:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: Cocogoose-Pro-Condensed-Regular;
+  src:
+    url(typsnitt/Ttf/Cocogoose-Pro-Condensed-Regular.ttf)
+    format('truetype');
+  font-display: swap !important;
+}
 
 :root {
   --font-size-xsm: 1.2rem;
@@ -30,6 +38,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+#SEE {
+  display: none;
 }
 
 img {
@@ -107,12 +119,17 @@ img {
 }
 
 .list-item {
-  gap: 40px;
-
-  /* margin-top: 40px; */
+  gap: 50px;
   text-align: center;
-  margin-top: 14px;
-  margin-bottom: 250px;
+  margin-top: 50px;
+}
+
+.ubtn {
+  border: 2px solid #ec5242;
+  width: 70px;
+  height: 30px;
+  color: red;
+  cursor: pointer;
 }
 
 .upbtn {
@@ -152,7 +169,7 @@ img {
   margin-left: 10px;
 }
 
-.main-section h1,
+.main-section,
 h2 {
   color: #ec5242;
 }
@@ -163,18 +180,25 @@ h2 {
 
 .creative {
   font-size: xx-large;
-  font-weight: 900;
+  font-weight: 1200;
+  color: transparent;
+  background-image: linear-gradient(to right, red, black);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "cocogoose", sans-serif, Georgia, Times, 'Times New Roman', serif;
 }
 
 .joyful {
   color: #272a31;
-  border: 2px solid white;
+  border: 1px solid rgb(233, 233, 233);
   padding: 10px;
+  font-size: x-small;
 }
 
 #timer {
-  font-size: larger;
-  font-weight: 800;
+  font-size: xx-large;
+  font-weight: 900;
   letter-spacing: 5px;
   color: #272a31;
 }
@@ -194,6 +218,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  margin-top: 100px;
 }
 
 .five {
@@ -218,13 +243,9 @@ h2 {
   gap: 8px;
 }
 
-.see {
-  display: none;
-}
-
 .lecture-div {
   display: flex;
-  background-color: gray;
+  background-color: rgb(201, 198, 198, 0.1);
   width: 96%;
   margin: auto;
 }
@@ -235,6 +256,10 @@ h2 {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.line1 {
+  width: 10px;
 }
 
 .lecture-words {
@@ -290,6 +315,8 @@ h2 {
 .about-creative {
   color: #ec5242;
   text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
 }
 
 .about-joyful {
@@ -310,6 +337,7 @@ strong {
 
 .about-program {
   background-color: white;
+  height: 700px;
 }
 
 .create {
@@ -331,10 +359,7 @@ strong {
 }
 
 .big-logo {
-  background-image: url("./images/shutterstock-475025365.webp");
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  margin: auto;
   border: 1px solid gray;
   display: flex;
   align-items: center;
@@ -342,7 +367,6 @@ strong {
   width: 150px;
   height: 50px;
   align-self: center;
-  margin: auto;
   color: #ec5242;
   text-align: center;
   margin-bottom: 20px;
@@ -375,7 +399,7 @@ strong {
   margin: auto;
 }
 
-.img1 h3 {
+.img1 h2 {
   text-align: center;
   color: white;
   padding-top: 50px;
@@ -396,7 +420,7 @@ strong {
   margin-bottom: 20px;
 }
 
-.img2 h3 {
+.img2 h2 {
   text-align: center;
   color: white;
   padding-top: 50px;
@@ -543,7 +567,7 @@ strong {
     flex-direction: row;
     justify-content: right;
     align-items: center;
-    background-color: gainsboro;
+    background-color: darkgray;
     width: 100%;
     height: 20px;
     display: flex;
@@ -555,7 +579,6 @@ strong {
   }
 
   #logo {
-    background-image: url("./images/shutterstock-475025365.webp");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -566,8 +589,9 @@ strong {
     width: 120px;
     height: 40px;
     color: #ec5242;
-    margin-bottom: 20px;
-    padding-top: 8px;
+    padding-bottom: -5px;
+    padding-top: 7px;
+    margin: 10px 0 0 148px;
   }
 
   .list {
@@ -580,8 +604,8 @@ strong {
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    top: -3px;
-    margin-left: 85%;
+    top: 8px;
+    margin-left: 57%;
   }
 
   .list-item {
@@ -598,6 +622,15 @@ strong {
 
   .list-link:active {
     color: #ec5242;
+  }
+
+  .ubtn {
+    border: 2px solid #ec5242;
+    width: 70px;
+    height: 30px;
+    color: red;
+    cursor: pointer;
+    top: 8px;
   }
 
   .upbtn {
@@ -624,7 +657,14 @@ strong {
   }
 
   .joyful {
-    width: 50%;
+    font-size: x-small;
+    width: 70%;
+    color: #575859;
+  }
+
+  .main-section {
+    margin-left: 170px;
+    padding-top: 80px;
   }
 
   .program {
@@ -632,10 +672,12 @@ strong {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 500px;
   }
 
   .five {
     margin-top: 20px;
+    font-size: large;
   }
 
   .lecture-container {
@@ -643,8 +685,7 @@ strong {
     grid-template-columns: repeat(5, 1fr);
     grid-auto-flow: row;
     width: 80%;
-    margin: auto;
-    padding-bottom: 20px;
+    margin: 0 0 200px 100px;
   }
 
   .lecture-div {
@@ -680,6 +721,13 @@ strong {
 
   .join {
     display: none;
+  }
+
+  #SEE {
+    color: white;
+    text-decoration: underline;
+    margin: -250px -9px -8px 550px;
+    display: block;
   }
 
   .see {
@@ -732,17 +780,17 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
   }
 
   .speaker-container {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .nav {
-    background-color: white;
-    height: 50px;
+    background-color: rgb(252, 254, 254);
+    height: 70px;
   }
 
   .event {
@@ -755,46 +803,62 @@ strong {
   .img1 {
     background-image: url("./images/summit1.jpeg");
     width: 25%;
-    height: 180px;
+    height: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-right: 50px;
+    margin-right: 5px;
   }
 
-  .img1 h3 {
+  .img1 h2 {
     text-align: center;
     color: white;
     padding-top: 50px;
+    font-size: larger;
+    font-weight: 600;
   }
 
   .img1 p {
     color: white;
+    font-size: medium;
   }
 
   .img2 {
     background-image: url("./images/summit2.jpeg");
     width: 25%;
-    height: 180px;
+    height: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-top: 16px;
-    margin-left: 50px;
+    margin-left: 10px;
   }
 
-  .img2 h3 {
+  .img2 h2 {
     text-align: center;
     color: white;
     padding-top: 50px;
+    font-size: larger;
+    font-weight: 600;
   }
 
   .img2 p {
     color: white;
+    font-size: medium;
   }
 
   .about-main-section {
-    margin-top: 20px;
+    margin-top: 150px;
+    height: 600px;
+  }
+
+  .about-hello {
+    display: none;
+  }
+
+  .about-joyful {
+    width: 55%;
+    font-size: medium;
   }
 
   .about-footer {
@@ -817,5 +881,49 @@ strong {
 
   .about-footer p {
     padding-right: 290px;
+  }
+
+  .txt {
+    margin: -71px 0 0 -51px;
+  }
+
+  .mid {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    height: 300px;
+  }
+
+  .create {
+    padding-top: 50px;
+  }
+
+  .abobar {
+    color: #ec5242;
+    height: 3px;
+    width: 30px;
+    z-index: 99;
+  }
+
+  .hy {
+    padding-top: 20px;
+  }
+
+  .big-logo {
+    margin-top: 50px;
+    margin-left: 450px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    color: #ec5242;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
