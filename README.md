@@ -227,13 +227,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/uchexm
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
 [product-screenshot]: images/readme.PNG
-[HTML]: https://img.shields.io/badge/css-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-
-[CSS]: https://img.shields.io/badge/css-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-
-[JAVASCRIPT]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
