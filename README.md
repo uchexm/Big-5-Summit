@@ -214,8 +214,8 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/uchexm
-[contributors-url]: https://github.com/contributors/uchexm/badge
+[contributors-shield]: https://img.shields.io/github/contributors/uchexm/badge
+[contributors-url]: https://img.shields.io/github/contributors/uchexm/badge
 [forks-shield]: https://img.shields.io/github/forks/uchexm/badge
 [forks-url]: https://github.com/uchexm/forks
 [stars-shield]: https://img.shields.io/github/stars/uchexm/badge
