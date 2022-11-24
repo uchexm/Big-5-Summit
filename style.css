@@ -313,12 +313,15 @@ h2 {
 }
 
 .about-creative {
-  color: #ec5242;
-  text-align: center;
   font-size: xx-large;
-  font-weight: 900;
+  font-weight: 1200;
+  color: transparent;
+  background-image: linear-gradient(to right, red, black);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "cocogoose", sans-serif, Georgia, Times, 'Times New Roman', serif;
 }
-
 .about-joyful {
   font-size: x-small;
   width: 80%;
