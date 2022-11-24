@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://https://github.com/uchexm/Big-5-Summit/tree/Homepage">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.PNG" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">BIG 5 SUMMIT</h3>
@@ -217,12 +217,12 @@ Use this space to list resources you find helpful and would like to give credit 
 [contributors-shield]: https://img.shields.io/github/contributors/uchexm/badge
 [contributors-url]: https://img.shields.io/github/contributors/uchexm/badge
 [forks-shield]: https://img.shields.io/github/forks/uchexm/badge
-[forks-url]: https://github.com/uchexm/forks
+[forks-url]: https://img.shields.io/github/uchexm/forksbadge
 [stars-shield]: https://img.shields.io/github/stars/uchexm/badge
-[stars-url]: https://github.com/uchexm/
-[issues-shield]: https://img.shields.io/github/uchexm/issues
+[stars-url]: https://img.shields.io/github/uchexm/badge
+[issues-shield]: https://img.shields.io/github/uchexm/issues/badge
 [issues-url]: https://github.com/uchexm/Big-5-Summit/issues
-[license-shield]: https://img.shields.io/github/license/uchexm
+[license-shield]: https://img.shields.io/github/license/uchexm/badge
 [license-url]: https://github.com/uchexm
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
 [product-screenshot]: images/readme.PNG
