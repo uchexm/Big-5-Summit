@@ -19,14 +19,14 @@
   <p align="center">
     A conservation effort for the biggest land animals on earth!
     <br />
-    <a href="https://https://github.com/uchexm/Big-5-Summit/tree/Homepage"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/uchexm/Big-5-Summit/Actions"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://https://github.com/uchexm/Big-5-Summit/tree/Homepage">View Demo</a>
+    <a href="https://uchexm.github.io/Big-5-Summit/">View Demo</a>
     ·
-    <a href="https://https://github.com/uchexm/Big-5-Summit/tree/Homepage/issues">Report Bug</a>
+    <a href="https://github.com/uchexm/Big-5-Summit/issues">Report Bug</a>
     ·
-    <a href="https://https://github.com/uchexm/Big-5-Summit/tree/Homepage/issues">Request Feature</a>
+    <a href="https://github.com/uchexm/Big-5-Summit/issues">Request Feature</a>
   </p>
 </div>
 
