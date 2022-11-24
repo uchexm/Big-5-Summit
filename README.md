@@ -215,15 +215,15 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/uchexm
+[contributors-shield]: https://img.shields.io/github/contributors/uchexm/badge
 [contributors-url]: https://github.com/uchexm
-[forks-shield]: https://img.shields.io/github/uchexm
+[forks-shield]: https://img.shields.io/github/forks/uchexm/badge
 [forks-url]: https://github.com/uchexm
 [stars-shield]: https://img.shields.io/github/stars/uchexm/badge
 [stars-url]: https://github.com/uchexm/
-[issues-shield]: https://img.shields.io/github/uchexm/
+[issues-shield]: https://img.shields.io/github/issues/uchexm/badge
 [issues-url]: https://github.com/uchexm/Big-5-Summit/issues
-[license-shield]: https://img.shields.io/github/uchexm
+[license-shield]: https://img.shields.io/github/license/uchexm/badge
 [license-url]: https://github.com/uchexm
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
 [product-screenshot]: images/readme.PNG

@@ -740,7 +740,6 @@ strong {
     grid-template-columns: 2fr 2fr;
   }
 
-  /* About page wider screens */
   .nav {
     background-color: white;
     height: 50px;
