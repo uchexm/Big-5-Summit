@@ -38,6 +38,12 @@ const x = setInterval(() => {
   }
 }, 1000);
 
+const speakerBody = document.querySelector('.speaker-container');
+const speakerSection = document.createElement('div');
+speakerSection.className = 'speakers-card';
+
+const speakerProject = [];
+
 const speakers = [
   {
     id: 'speaker1',
@@ -49,7 +55,7 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
   {
-    id: 'speaker1',
+    id: 'speaker2',
     img: {
       src: './images/1cap.PNG', alt: 'Picture of a professor',
     },
@@ -58,7 +64,7 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
   {
-    id: 'speaker1',
+    id: 'speaker3',
     img: {
       src: './images/2c.PNG', alt: 'Picture of a professor',
     },
@@ -67,7 +73,7 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
   {
-    id: 'speaker1',
+    id: 'speaker4',
     img: {
       src: './images/3c.PNG', alt: 'Picture of a professor',
     },
@@ -76,7 +82,7 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
   {
-    id: 'speaker1',
+    id: 'speaker5',
     img: {
       src: './images/4c.PNG', alt: 'Picture of a professor',
     },
@@ -85,7 +91,7 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
   {
-    id: 'speaker1',
+    id: 'speaker6',
     img: {
       src: './images/5c.PNG', alt: 'Picture of a professor',
     },
@@ -94,56 +100,22 @@ const speakers = [
     description: 'Benkler studies commons-based peer production, and published his seminal book the wealth of networks in 2006',
   },
 ];
-function speakerCard(speakerObj) {
-  const {
-    id,
-    img,
-    name,
-    title,
-    description,
-  } = speakerObj;
-  const speakerDomNode = `
- <div id="${id}" class="speaker">
- <div class="imge">
-   <img id="imge" src="${img.src}" alt="${img.alt}">
- </div>
- <div class="txt">
-  <h4 class="names">${name}</h4>
-  <p class="title">${title}</p>
-  <span class="bard"></span>
-  <p class="des">${description}</p>
- </div>
-</div>
-`;
-  return speakerDomNode;
+
+const speakerArray = [];
+speakers.forEach((item) => {
+  const displaySpeaker = `<div class="imge"><img id="imge" src="${item.img.src}" alt="${item.name}"></div>
+  <div class="txt">
+      <div class="names">${item.name}</div>
+      <div class="title">${item.title}</div>
+      <span class="bard"></span>
+      <div class="des">${item.description}</div>
+  </div>`
+  speakerArray.push(displaySpeaker);
+})
+
+for(let i = 0; i < speakers.length; i+= 1) {
+   speakers[i].id = document.createElement('div');
+   speakers[i].id.className = 'speaker-container';
+   speakers[i].id.innerHTML = speakerArray[i];
+   speakerBody.appendChild(speakers[i].id);
 }
-const speakerSection = document.querySelector('.speaker-container');
-speakers.forEach((speaker) => {
-  speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
-});
-
-/* const moreBtn = document.querySelector('.morebtn');
-const speakerSection = document.querySelector('.speaker-container');
-
-let start = 0;
-let end = 2;
-
-window.onload = () => {
-  const arr = speakers.slice(start, end);
-  arr.forEach((speaker) => {
-    speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
-  });
-};
-
-moreBtn.addEventListener('click', () => {
-  start = end;
-  end += 2;
-  const arr = speakers.slice(start, end);
-  if (arr.length <= 0) {
-    moreBtn.setAttribute('disabled', true);
-    return;
-  }
-  arr.forEach((speaker) => {
-    speakerSection.insertAdjacentHTML('afterbegin', speakerCard(speaker));
-  });
-}); */
