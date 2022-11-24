@@ -16,6 +16,7 @@
     "eol-last": "off",
     "linebreak-style": ["error", "windows"]
   },
+  
   "ignorePatterns": [
     "dist/",
     "build/"
