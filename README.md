@@ -57,7 +57,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-## Link to Uchechi Nwaka's Loom video Explaining the Project
+Link to Uchechi Nwaka's Loom video Explaining the Project
 https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade
 
 <!-- ABOUT THE PROJECT -->
