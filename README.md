@@ -86,11 +86,9 @@ Our activities and program will depend on the time of year we meet and iplement 
 
 This project is built using these technologies and frameworks.
 
-* [![HTML][HTML]]
-* [![CSS][CSS]]
-* [![JAVASCRIPT][JAVASCRIPT]]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* HTML
+* CSS
+* JAVASCRIPT
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,14 +215,14 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/uchexm
-[contributors-url]: https://github.com/uchexm
-[forks-shield]: https://img.shields.io/github/uchexm
-[forks-url]: https://github.com/uchexm
+[contributors-url]: https://github.com/contributors/uchexm/badge
+[forks-shield]: https://img.shields.io/github/forks/uchexm/badge
+[forks-url]: https://github.com/uchexm/forks
 [stars-shield]: https://img.shields.io/github/stars/uchexm/badge
 [stars-url]: https://github.com/uchexm/
-[issues-shield]: https://img.shields.io/github/uchexm/
+[issues-shield]: https://img.shields.io/github/uchexm/issues
 [issues-url]: https://github.com/uchexm/Big-5-Summit/issues
-[license-shield]: https://img.shields.io/github/uchexm
+[license-shield]: https://img.shields.io/github/license/uchexm
 [license-url]: https://github.com/uchexm
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
 [product-screenshot]: images/readme.PNG
