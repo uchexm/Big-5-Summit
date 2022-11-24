@@ -274,7 +274,6 @@ h2 {
   display: none;
 }
 
-
 /* About page */
 .about-main-section {
   display: flex;
@@ -538,19 +537,6 @@ strong {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* For wider screens */
 
 @media screen and (min-width: 768px) {
@@ -754,10 +740,6 @@ strong {
     display: grid;
     grid-template-columns: 2fr 2fr;
   }
-
-
-
-
 
   /* About page wider screens */
   .nav {
