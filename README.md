@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://https://github.com/uchexm/Big-5-Summit/tree/Homepage">
-    <img src="images/logo.PNG" alt="Logo" width="80" height="80">
+    
   </a>
 
   <h3 align="center">BIG 5 SUMMIT</h3>
@@ -85,9 +85,9 @@ Our activities and program will depend on the time of year we meet and iplement 
 
 This project is built using these technologies and frameworks.
 
-* [![HTML][HTML]]
-* [![CSS][CSS]]
-* [![JAVASCRIPT][JAVASCRIPT]]
+* [![HTML]]
+* [![CSS]]
+* [![JAVASCRIPT]]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
@@ -228,11 +228,10 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
 [product-screenshot]: images/readme.PNG
 [HTML]: https://img.shields.io/badge/css-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[HTML]: 
+
 [CSS]: https://img.shields.io/badge/css-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[CSS]: 
+
 [JAVASCRIPT]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[JAVASCRIPT]: 
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
