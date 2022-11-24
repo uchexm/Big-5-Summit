@@ -74,7 +74,7 @@ Here's why:
 
 The Big 5 Conservation Programme works around the full moon, as this and the period just after, is when animals like lions tend to be most active. 
 
-Our activities and program will depend on the time of year we meet and iplement our findings join the project, but there is plenty to do year-round and your work will always be useful, exciting and very interesting.
+Our activities and program will depend on the time of year we meet and iplement our findings join the project, but there is plenty to do year-round and your work will always be useful, exciting and interesting.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
