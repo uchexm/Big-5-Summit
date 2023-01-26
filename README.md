@@ -85,11 +85,11 @@ Our activities and program will depend on the time of year we meet and iplement 
 
 This project is built using these technologies and frameworks.
 
-* [![HTML]]
-* [![CSS]]
-* [![JAVASCRIPT]]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Bootstrap**
+- **JQuery**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
