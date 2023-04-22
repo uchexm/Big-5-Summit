@@ -101,7 +101,7 @@ This project is built using these technologies and frameworks.
 To get started using this product, you need an internet connection, a laptop or a phone and a web browser
 
 
-### Prerequisites
+### Prerequisite
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
