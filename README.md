@@ -61,7 +61,7 @@ Link to Uchechi Nwaka's Loom video Explaining the Project
 https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade
 
 <!-- ABOUT THE PROJECT -->
-## About This Projects
+## About This Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
