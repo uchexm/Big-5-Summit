@@ -32,7 +32,7 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENT -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
