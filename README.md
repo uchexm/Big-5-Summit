@@ -37,7 +37,7 @@
   <summary>Table of Content</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About This Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
