@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://uchexm.github.io/Big-5-Summit/">
+  <a href="https://uchexmi.github.io/Big-5-Summit/">
     
   </a>
 
@@ -103,7 +103,7 @@ To get started using this product, you need an internet connection, a laptop or 
 
 ### Prerequisite
 
-This is an example of how to list things you need to use the software and how to install them.
+This is an example of how to use tge repo and list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
