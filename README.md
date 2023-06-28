@@ -65,7 +65,7 @@ https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The focus of this Big 5 Wildlife Conservation project is to assist with the operation and rehabilitation of two of Africa’s National Parks – its largest, Serengeti, and one of its most neglected, the Zambezi National Park. The project supplies game water for wildlife, particularly to support Hwange’s ever-growing elephant population. It also assists National Parks rangers with park maintenance, deployment of personnel and environmental monitoring
+The focus of Big 5 Wildlife Conservation project is to assist with the operation and rehabilitation of two of Africa’s National Parks – its largest, Serengeti, and one of its most neglected, the Zambezi National Park. The project supplies game water for wildlife, particularly to support Hwange’s ever-growing elephant population. It also assists National Parks rangers with park maintenance, deployment of personnel and environmental monitoring
 
 Here's why:
 * This is a unique opportunity to use tech to enhance the job of the Field Assistants, supporting the daily operations of the project staff. Monitor park infrastructure and development projects, wildlife monitoring, bird and animal population surveys, and ranger field support.
