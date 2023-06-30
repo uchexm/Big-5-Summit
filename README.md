@@ -24,7 +24,7 @@
     <br />
     <a href="https://uchexm.github.io/Big-5-Summit/">View Demo</a>
     ·
-    <a href="https://github.com/uchexm/Big-5-Summit/issues">Report Bug</a>
+    <a href="https://github.com/uchexm/Big-5-Summit/issues">Report a Bug</a>
     ·
     <a href="https://github.com/uchexm/Big-5-Summit/issues">Request Feature</a>
   </p>
