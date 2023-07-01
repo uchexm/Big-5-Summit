@@ -22,7 +22,7 @@
     <a href="https://github.com/uchexm/Big-5-Summit/Actions"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://uchexm.github.io/Big-5-Summit/">View Demo</a>
+    <a href="https://uchexm.github.io/Big-5-Summit/">View live Demo</a>
     ·
     <a href="https://github.com/uchexm/Big-5-Summit/issues">Report a Bug</a>
     ·
