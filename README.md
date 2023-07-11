@@ -1,63 +1,31 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://uchexmi.github.io/Big-5-Summit/">
-    
-  </a>
-
-  <h3 align="center">BIG 5 SUMMIT</h3>
-
-  <p align="center">
-    A conservation effort for the biggest land animals on earth!
-    <br />
-    <a href="https://github.com/uchexm/Big-5-Summit/Actions"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://uchexm.github.io/Big-5-Summit/">View live Demo</a>
-    ·
-    <a href="https://github.com/uchexm/Big-5-Summit/issues">Report a Bug</a>
-    ·
-    <a href="https://github.com/uchexm/Big-5-Summit/issues">Request Feature</a>
-  </p>
-</div>
-
-
+<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Content</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About This Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">Licenses</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-Link to Uchechi Nwaka's Loom video Explaining the Project
-[Loom](https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade)
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Budget-app ](#-practice-test-driven-developmenttdd-)
+  - [🛠 Built With ](#-built-with-)
+  - [🛠 Tech Stack ](#-tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors](#-authors)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 🦁 Big 5 <a name="about-project"></a>
+## Video demo
+
+> [Video demo](https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade)
 
 <!-- ABOUT THE PROJECT -->
 ## About This Project
@@ -113,7 +81,7 @@ This is an example of how to use the repo and list things you need to use the so
 ### Installation
 
 
-1. Get a free API Key at [https://uchexm.github.io/Portfolio/](https://uchexm.github.io/Portfolio/)
+1. Get a free API Key at [Portfolio](https://uchexm.github.io/Portfolio/)
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
@@ -178,9 +146,9 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
+## 📝 License <a name="license"></a>
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
