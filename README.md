@@ -103,7 +103,7 @@ To get started using this product, you need an internet connection, a laptop or 
 
 ### Prerequisite
 
-This is an example of how to use tge repo and list things you need to use the software and how to install them.
+This is an example of how to use the repo and list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -188,9 +188,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/nwakauc) - nwakauc1@gmail.com
+Your Name - [Twitter](https://twitter.com/nwakauc)
 
-Project Link: [https://github.com/uchexm/Big-5-Summit/](https://https://github.com/uchexm/Big-5-Summit/)
+Project Link: [Big 5](https://https://github.com/uchexm/Big-5-Summit/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,15 +216,15 @@ I want to give speacial thsnks to.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/uchexm/badge
-[contributors-url]: https://github.com/uchexm
-[forks-shield]: https://img.shields.io/github/forks/uchexm/badge
-[forks-url]: https://github.com/uchexm
-[stars-shield]: https://img.shields.io/github/stars/uchexm/badge
-[stars-url]: https://github.com/uchexm/
-[issues-shield]: https://img.shields.io/github/issues/uchexm/badge
-[issues-url]: https://github.com/uchexm/Big-5-Summit/issues
-[license-shield]: https://img.shields.io/github/license/uchexm/badge
-[license-url]: https://github.com/uchexm
-[linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
-[product-screenshot]: images/LO.PNG
+[!contributors-shield]: https://img.shields.io/github/contributors/uchexm/badge
+[!contributors-url]: https://github.com/uchexm
+[!forks-shield]: https://img.shields.io/github/forks/uchexm/badge
+[!forks-url]: https://github.com/uchexm
+[!stars-shield]: https://img.shields.io/github/stars/uchexm/badge
+[!stars-url]: https://github.com/uchexm/
+[!issues-shield]: https://img.shields.io/github/issues/uchexm/badge
+[!issues-url]: https://github.com/uchexm/Big-5-Summit/issues
+[!license-shield]: https://img.shields.io/github/license/uchexm/badge
+[!license-url]: https://github.com/uchexm
+[!linkedin-url]: https://linkedin.com/in/uchechi-nwaka-79a21a75/
+[!product-screenshot]: images/LO.PNG
