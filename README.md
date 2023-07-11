@@ -103,7 +103,7 @@ This is an example of how to use the repo and list things you need to use the so
 
 This project is for all wildlife conservation and enthusiasts, you can use it as intended.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://jquery.com/)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +118,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
     - [ ] Chinese
-    - [ ] Spanish
+    - [ ] Swahili
 
 See the [open issues](https://github.com/uchexm/Big-5-Summit/issues) for a full list of proposed features (and known issues).
 
