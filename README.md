@@ -83,7 +83,7 @@ This is an example of how to use the repo and list things you need to use the so
 1. Get a free API Key at [Portfolio](https://uchexm.github.io/Portfolio/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone git@github.com:uchexm/Big-5-Summit.git
    ```
 3. Install NPM packages
    ```sh
