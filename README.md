@@ -147,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENCE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,10 +156,9 @@ This project is [MIT](./LICENCE) licensed.
 <!-- CONTACT -->
 ## Contact
 You can contact me on.
-[Email](mailto:nwakauc1@gmail.com)
-[Twitter](https://twitter.com/nwakauc)
-
-Project Link: [Big 5](https://https://github.com/uchexm/Big-5-Summit/)
+- [Email](mailto:nwakauc1@gmail.com)
+- [Twitter](https://twitter.com/nwakauc)
+- [Big 5](https://https://github.com/uchexm/Big-5-Summit/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
