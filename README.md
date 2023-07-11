@@ -58,12 +58,12 @@
   </ol>
 </details>
 Link to Uchechi Nwaka's Loom video Explaining the Project
-https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade
+[Loom](https://www.loom.com/share/46d8e3ca60e943c9a029015ebd010ade)
 
 <!-- ABOUT THE PROJECT -->
 ## About This Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[[Product Name Screen Shot][product-screenshot]](https://example.com)
 
 The focus of Big 5 Wildlife Conservation project is to assist with the operation and rehabilitation of two of Africa’s National Parks – its largest, Serengeti, and one of its most neglected, the Zambezi National Park. The project supplies game water for wildlife, particularly to support Hwange’s ever-growing elephant population. It also assists National Parks rangers with park maintenance, deployment of personnel and environmental monitoring
 
@@ -187,8 +187,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [Twitter](https://twitter.com/nwakauc)
+You can contact me on.
+[Email](mailto:nwakauc1@gmail.com)
+[Twitter](https://twitter.com/nwakauc)
 
 Project Link: [Big 5](https://https://github.com/uchexm/Big-5-Summit/)
 
